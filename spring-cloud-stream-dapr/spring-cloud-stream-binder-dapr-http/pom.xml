@@ -17,6 +17,7 @@
 		</dependency>
 		<dependency>
 			<groupId>io.dapr</groupId>
+			<!-- <artifactId>dapr-sdk-springboot-http</artifactId> -->
 			<artifactId>dapr-sdk-springboot</artifactId>
 			<exclusions>
 				<exclusion>

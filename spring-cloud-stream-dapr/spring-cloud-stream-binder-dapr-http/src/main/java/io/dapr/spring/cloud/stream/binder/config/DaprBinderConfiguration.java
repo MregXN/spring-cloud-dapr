@@ -4,7 +4,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import io.dapr.client.DaprClient;
-import io.dapr.client.DaprClientBuilder;
+//import io.dapr.client.DaprClientBuilder;
+import io.dapr.client.DaprClientHttpBuilder;
 import io.dapr.spring.cloud.stream.binder.DaprMessageChannelBinder;
 import io.dapr.spring.cloud.stream.binder.properties.DaprBinderConfigurationProperties;
 import io.dapr.spring.cloud.stream.binder.properties.DaprExtendedBindingProperties;
@@ -42,7 +43,8 @@ public class DaprBinderConfiguration {
 	@Bean
 	@ConditionalOnMissingBean
 	public DaprClient daprClient(DaprBinderConfigurationProperties properties) {
-		DaprClient client = new DaprClientBuilder()
+		DaprClient client = new DaprClientHttpBuilder()
+		//DaprClient client = new DaprClientBuilder()
 			.build();
 		return client;
 	}

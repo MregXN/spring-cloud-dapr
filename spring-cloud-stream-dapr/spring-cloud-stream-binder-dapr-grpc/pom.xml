@@ -11,10 +11,11 @@
 	<dependencies>
 		<dependency>
 			<groupId>io.dapr</groupId>
-			<artifactId>dapr-sdk</artifactId>
+			<artifactId>dapr-sdk-grpc</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>io.dapr</groupId>
+			<!-- <artifactId>dapr-sdk-springboot-grpc</artifactId> -->
 			<artifactId>dapr-sdk-springboot</artifactId>
 			<exclusions>
 				<exclusion>

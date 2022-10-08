@@ -61,7 +61,7 @@ dapr run --app-port 3500 --app-id app1 --app-protocol http --dapr-http-port 3501
 Check the log to see if dapr runtime start successfully. 
 
 
-## start sample app gprc-kafka
+## start sample app grpc-kafka
 
 Find class `SampleApplication` in package `io.dapr.spring.cloud.stream.sample.grpckafka` and run it with your IDE. Then you will see logs like this:
 

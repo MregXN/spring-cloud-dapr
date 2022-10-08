@@ -29,7 +29,27 @@
 			</dependency>
 			<dependency>
 				<groupId>io.dapr</groupId>
+				<artifactId>dapr-sdk-http</artifactId>
+				<version>${dapr-java-sdk.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.dapr</groupId>
+				<artifactId>dapr-sdk-grpc</artifactId>
+				<version>${dapr-java-sdk.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.dapr</groupId>
 				<artifactId>dapr-sdk-springboot</artifactId>
+				<version>${dapr-java-sdk.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.dapr</groupId>
+				<artifactId>dapr-sdk-springboot-http</artifactId>
+				<version>${dapr-java-sdk.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.dapr</groupId>
+				<artifactId>dapr-sdk-springboot-grpc</artifactId>
 				<version>${dapr-java-sdk.version}</version>
 			</dependency>
 			<dependency>
