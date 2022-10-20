@@ -18,11 +18,11 @@
 		<dependency>
 			<groupId>io.dapr</groupId>
 			<!-- <artifactId>dapr-sdk-springboot-http</artifactId> -->
-			<artifactId>dapr-sdk-springboot</artifactId>
+			<artifactId>dapr-sdk-springboot-http</artifactId>
 			<exclusions>
 				<exclusion>
 					<groupId>io.dapr</groupId>
-					<artifactId>dapr-sdk-actors</artifactId>
+					<artifactId>dapr-sdk-actors-http</artifactId>
 				</exclusion>
 			</exclusions>
 		</dependency>

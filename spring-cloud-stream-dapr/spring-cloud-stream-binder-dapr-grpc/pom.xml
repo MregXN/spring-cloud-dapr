@@ -16,11 +16,11 @@
 		<dependency>
 			<groupId>io.dapr</groupId>
 			<!-- <artifactId>dapr-sdk-springboot-grpc</artifactId> -->
-			<artifactId>dapr-sdk-springboot</artifactId>
+			<artifactId>dapr-sdk-springboot-grpc</artifactId>
 			<exclusions>
 				<exclusion>
 					<groupId>io.dapr</groupId>
-					<artifactId>dapr-sdk-actors</artifactId>
+					<artifactId>dapr-sdk-actors-grpc</artifactId>
 				</exclusion>
 			</exclusions>
 		</dependency>

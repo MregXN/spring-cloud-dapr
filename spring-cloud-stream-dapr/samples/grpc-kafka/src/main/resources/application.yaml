@@ -1,6 +1,6 @@
 grpc:
   server:
-    port: 3500
+    port: 3501
 
 spring:
   cloud:
