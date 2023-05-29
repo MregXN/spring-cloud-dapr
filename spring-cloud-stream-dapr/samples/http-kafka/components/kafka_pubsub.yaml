@@ -28,3 +28,15 @@ spec:
     value: group1
   - name: authType # Required.
     value: "none"
+# apiVersion: dapr.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: kafka-pubsub
+# spec:
+#   type: pubsub.redis
+#   version: v1
+#   metadata:
+#   - name: redisHost
+#     value: localhost:6379
+#   - name: redisPassword
+#     value: ""
